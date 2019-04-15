@@ -24,13 +24,13 @@ int main(){
     int numbersLen=5;
     int arr[numbersLen]={1,2,3,4,5};
     cout<<"Array Original: ";
-    for (int i=0;i<numbersLen;i++){
+    for (int i=0;i<numbersLen;i++){//Imprimimos el array original
         cout<<arr[i]<<" ";
     }
     cout<<endl;
-    reverso(arr,numbersLen);
+    reverso(arr,numbersLen);//Ejecutamos la funcion reverso dando como parametros el array y su tamaño
     cout<<"Array Invertido: ";
-    for (int i=0;i<numbersLen;i++){
+    for (int i=0;i<numbersLen;i++){//Imprimimos el array Invertido
         cout<<arr[i]<<" ";
     }
     return 0;

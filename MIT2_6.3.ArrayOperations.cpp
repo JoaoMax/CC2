@@ -19,19 +19,19 @@ int main(){
     int output[][WIDTH];
     for (int i=0; i<WIDTH;i++){
         for (int j=0;j<LENGTH;j++){
-            cout<<"Ingresa el valor en la posicion ["<<i<<"]"<<"["<<j<<"]: ";cin>>n;
+            cout<<"Ingresa el valor en la posicion ["<<i<<"]"<<"["<<j<<"]: ";cin>>n;//Creamos la primera matriz
             input[i][j]=n;
         }
     }
     for (int i=0; i<WIDTH;i++){
         for (int j=0;j<LENGTH;j++){
-            cout<<"Valor en la posicion ["<<i<<"]"<<"["<<j<<"]: "<<input[i][j]<<endl;
+            cout<<"Valor en la posicion ["<<i<<"]"<<"["<<j<<"]: "<<input[i][j]<<endl;//Creamos la segunda matriz
         }
     }
     transpose(input[][LENGTH], output[][WIDTH]);
     for (int i=0; i<WIDTH;i++){
         for (int j=0;j<LENGTH;j++){
-            cout<<"Valor en la posicion ["<<i<<"]"<<"["<<j<<"]: "<<input[i][j]<<endl;
+            cout<<"Valor en la posicion ["<<i<<"]"<<"["<<j<<"]: "<<input[i][j]<<endl;//Imprimimos la matriz transpuesta
         }
     }
     return 0;
